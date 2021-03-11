@@ -1,0 +1,20 @@
+
+.card {
+    
+    width: 22rem;
+    height: 22rem;
+    
+   
+}
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
+.NewGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 10px;
+}
