@@ -1,14 +1,10 @@
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
-} from "react-router-dom";
+  Route} from "react-router-dom";
 
 import './App.css';
-import Header from './Compoments/Header/Header';
 import Home from './Compoments/Home/Home';
-import {Card,Button} from 'react-bootstrap';
 import LeagueDetails from "./Compoments/LeagueDetails/LeagueDetails";
 
 function App() {
