@@ -7,6 +7,7 @@ import GenderImageFemale from '../../Photo/female.png';
 import GenderImageMale from '../../Photo/male.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faTwitter, faLinkedin, faYoutube, faFacebook} from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 
 const LeagueDetails = () => {
     const {idLeague}=useParams();
@@ -19,6 +20,15 @@ const LeagueDetails = () => {
         .then(data=> setLeagueDetails(data.leagues[0]))
 
     },[idLeague])
+
+    // const gender=Male;
+    // let genderImage;
+    // if (gender==={leagueDetails.strGender}){
+    //     genderImage=<img src={GenderImageMale} alt=""/>;
+    // }
+    // else{
+    //     genderImage=<img src={GenderImageFemale} alt=""/>;
+    // }
     return (
         <div className="container">
             <div className="banner">
@@ -35,11 +45,12 @@ const LeagueDetails = () => {
                 </div> 
                 
                 <div className="GenderImage">
+                    {/* {genderImage} */}
                 <img src={GenderImageMale} alt=""/>
                 </div>
 
             </div>
-            <div>
+            <div className="leagueDescription">
             <p>{leagueDetails.strDescriptionEN}</p>
             </div>
             

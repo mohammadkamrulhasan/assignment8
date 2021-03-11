@@ -12,7 +12,7 @@ const League = (props) => {
         history.push(url);
     }
     return (
-            
+        <div className="container1">    
         <div className="NewGrid">
             <div className="grid">
             <Card style={{ width: '18rem' }} className="box">
@@ -27,7 +27,7 @@ const League = (props) => {
             </Card>
         </div>
         </div>
-        
+        </div>
         
         
     );

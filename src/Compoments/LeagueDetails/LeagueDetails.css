@@ -1,5 +1,6 @@
 .container{
-    overflow:auto;
+    overflow:hidden;
+    background-color:black;
 }
 
 .banner img{
@@ -16,10 +17,14 @@
 .Info{
     float: left;
     height: 400px;
-    width: 500px;
+    width: 560px;
     
 }
 .GenderImage img{
         height: 250px;
         width: 400px;
+}
+.leagueDescription{
+    color: white;
+  text-align: justify;
 }

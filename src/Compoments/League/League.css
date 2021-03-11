@@ -1,20 +1,15 @@
 
-.card {
-    
-    width: 22rem;
-    height: 22rem;
-    
-   
-}
-.box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    margin-bottom: 10px;
-}
 .NewGrid {
+  
+    margin-bottom: 10px;    
+    margin-top: 30px;
+
+}
+.container1{
+    overflow:hidden;
+    background-color:black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
-    margin-bottom: 10px;
+    width: 100%;
 }
