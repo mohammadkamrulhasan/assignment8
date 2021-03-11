@@ -1,0 +1,25 @@
+.container{
+    overflow:auto;
+}
+
+.banner img{
+    height: 350px;
+    width: 100%;
+}
+.leagueInfo {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+       
+}
+.Info{
+    float: left;
+    height: 400px;
+    width: 500px;
+    
+}
+.GenderImage img{
+        height: 250px;
+        width: 400px;
+}
