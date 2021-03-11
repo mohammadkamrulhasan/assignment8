@@ -13,7 +13,7 @@ const LeagueDetails = () => {
         // .then(data=> console.log(data.leagues));
         .then(data=> setLeagueDetails(data.leagues))
 
-    },[])
+    },[idLeague])
     return (
         <div>
             <h1>This is league Details {idLeague} </h1>
