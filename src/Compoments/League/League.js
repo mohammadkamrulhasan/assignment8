@@ -12,17 +12,7 @@ const League = (props) => {
         history.push(url);
     }
     return (
-        // <div>
-
-        //     {/* <h1>{strLeague} </h1>
-        //     <h2> Sports type:{strSport} </h2> */}
-        // style="width: 18rem;"
-
-
-        // </div>
-
-       
-
+            
         <div className="NewGrid">
             <div className="grid">
             <Card style={{ width: '18rem' }} className="box">
